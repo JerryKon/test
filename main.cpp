@@ -1,5 +1,6 @@
 #include <iostream>
 #include <vector>
+#include <set>
 int main()
 {
   cout<<"test for git";
@@ -7,5 +8,8 @@ int main()
   for(auto v : testvector)
     std::cout<<v<<" ";
   std::cout<<std::endl;
+
+  std::set<int> testset{5,3,8};
+  testset.emplace(1);
   return 0;
   }
