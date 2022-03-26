@@ -6,5 +6,6 @@ int main()
   std::vector<float> testvector{1,25,6,68,8};
   for(auto v : testvector)
     std::cout<<v<<" ";
+  std::cout<<std::endl;
   return 0;
   }
