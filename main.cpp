@@ -9,6 +9,6 @@ int main()
   std::cout<<std::endl;
 
   std::set<int> testset{5,3,8};
-  
+  testset.emplace(1);
   return 0;
   }
