@@ -1,6 +1,8 @@
 #include <iostream>
 #include <vector>
+#include <map>
 #include <set>
+
 int main()
 {
   cout<<"test for git";
@@ -11,5 +13,7 @@ int main()
 
   std::set<int> testset{5,3,8};
   testset.emplace(1);
+
+  std::map<string,int> mymap;
   return 0;
   }
