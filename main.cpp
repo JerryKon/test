@@ -7,5 +7,8 @@ int main()
   for(auto v : testvector)
     std::cout<<v<<" ";
   std::cout<<std::endl;
+
+  std::set<int> testset{5,3,8};
+  
   return 0;
   }
